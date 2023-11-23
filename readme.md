@@ -15,8 +15,8 @@ The main material can be accessed via Google Colab Notebook:
 
 The extra material can be accessed via Google Colab Notebooks:
 - [Iris Classification Colab](https://colab.research.google.com/github/alexgcsa/resbaz2023/blob/master/iris.ipynb)
-- [Disease Classification Colab - Part 1](https://colab.research.google.com/github/alexgcsa/comp_life_sciences_2023/blob/master/mlw_extra_p1.ipynb)
-- [Disease Classification Colab - Part 2](https://colab.research.google.com/github/alexgcsa/comp_life_sciences_2023/blob/master/mlw_extra_p2.ipynb)
+- [Disease Classification Colab - Part 1](https://colab.research.google.com/github/alexgcsa/comp_life_sciences_2023/blob/master/mlw_disease_class_p1.ipynb)
+- [Disease Classification Colab - Part 2](https://colab.research.google.com/github/alexgcsa/comp_life_sciences_2023/blob/master/mlw_disease_class_p2.ipynb)
 
 
 ## Local installation

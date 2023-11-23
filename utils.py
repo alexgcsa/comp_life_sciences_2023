@@ -156,6 +156,26 @@ def gen_train_test_roc(y_train, pred_train, y_test, pred_test, classes):
                              showlegend=False), row=1, col=2)
 
     iplot(fig)
+    
+def gen_train_test_cm(y_train, pred_train, y_test, pred_test, classes):
+    print("Performance on Training (k-fold cross validation)")
+    print(classification_report(y_train, pred_train))
+    print("Performance on Test set")
+    print(classification_report(y_test, pred_test))
+
+    cm_train = confusion_matrix(y_train, pred_train)
+    disp_train = ConfusionMatrixDisplay(confusion_matrix=cm_train)
+
+    cm_test = confusion_matrix(y_test, pred_test)
+    disp_test = ConfusionMatrixDisplay(confusion_matrix=cm_test)
+
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(14, 9))
+
+    disp_train.plot(ax=ax1, colorbar=False)
+    disp_train.ax_.set_title("k-fold Cross-validation")
+    disp_test.plot(ax=ax2, colorbar=False)
+    disp_test.ax_.set_title("Test")
+    plt.show()
 
 def plot_train_test_class(y_train, y_test):
     fig = make_subplots(rows=1, cols=2, specs=[[{"type": "pie"}, {"type": "pie"}]])

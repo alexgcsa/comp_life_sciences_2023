@@ -15,8 +15,8 @@ The main material can be accessed via Google Colab Notebook:
 
 The extra material can be accessed via Google Colab Notebooks:
 - [Iris Classification Colab](https://colab.research.google.com/github/alexgcsa/resbaz2023/blob/master/iris.ipynb)
-- [Disease Classification Colab - Part 1](https://colab.research.google.com/github/alexgcsa/resbaz2023/blob/master/qmlw_extra_p1.ipynb)
-- [Disease Classification Colab - Part 2](https://colab.research.google.com/github/alexgcsa/resbaz2023/blob/master/qmlw_extra_p2.ipynb)
+- [Disease Classification Colab - Part 1](https://colab.research.google.com/github/alexgcsa/comp_life_sciences_2023/blob/master/mlw_extra_p1.ipynb)
+- [Disease Classification Colab - Part 2](https://colab.research.google.com/github/alexgcsa/comp_life_sciences_2023/blob/master/mlw_extra_p2.ipynb)
 
 
 ## Local installation
@@ -27,14 +27,14 @@ Alternatively, if you want to run it locally, we suggest you use [Anaconda](http
 ### First, create an environment with the following command:
 
 ```bash
-$ conda create -n resbaz_qml
+$ conda create -n wml
 ```
 
 ### Then, install dependencies via pip:
 
 
 ```bash
-$ conda activate resbaz_qml
+$ conda activate wml
 
 $ conda install python=3.10
 
@@ -44,13 +44,13 @@ $ pip install -r requirements.txt
 ### If you need to run under this environment at any time, use the following commands to activate it and open the notebook:
 
 ```bash
-$ conda activate resbaz_qml
+$ conda activate wml
 
 $ jupyter lab
 ```
 **OR**
 ```bash
-$ conda activate incob_qml
+$ conda activate wml
 
 $ jupyter lab --ip=127.0.0.1 --port=8888
 ```

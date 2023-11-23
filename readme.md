@@ -6,8 +6,8 @@ by [@alexgcsa](https://twitter.com/alexgcsa)
 ## Main Colab Notebook
 The main material can be accessed via Google Colab Notebook:
 - [Introduction to Support Vector Classifier (SVC)](https://colab.research.google.com/github/alexgcsa/comp_life_sciences_2023/blob/master/Intro_to_SVC.ipynb)
-- [ML on PPI Small Molecules Inhibitors (Classification)](https://colab.research.google.com/github/alexgcsa/comp_life_sciences_2023/blob/master/lecture1_classification.ipynb)
-- [ML on PPI Small Molecules Inhibitors (Regression)](https://colab.research.google.com/github/alexgcsa/comp_life_sciences_2023/blob/master/lecture2_regression.ipynb)
+- [ML on PPI Small Molecules Inhibitors (Classification)](https://colab.research.google.com/github/alexgcsa/comp_life_sciences_2023/blob/master/lecture1_classification_v1.ipynb)
+- [ML on PPI Small Molecules Inhibitors (Regression)](https://colab.research.google.com/github/alexgcsa/comp_life_sciences_2023/blob/master/lecture2_regression_v1.ipynb)
 
 
 
